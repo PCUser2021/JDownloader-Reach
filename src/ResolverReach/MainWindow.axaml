@@ -1,0 +1,12 @@
+<windowing:AppWindow xmlns="https://github.com/avaloniaui"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:windowing="clr-namespace:FluentAvalonia.UI.Windowing;assembly=FluentAvalonia"
+                     x:Class="ResolverReach.MainWindow"
+                     Title="Resolver Reach — DNS-over-HTTPS diagnostics"
+                     Icon="/Assets/ResolverReach.ico"
+                     Width="1280" Height="850" MinWidth="960" MinHeight="680"
+                     CanResize="True" WindowState="Maximized"
+                     Background="{DynamicResource AppBackgroundBrush}"
+                     WindowStartupLocation="CenterScreen">
+  <Window.Content><ContentControl x:Name="MainContent" /></Window.Content>
+</windowing:AppWindow>
